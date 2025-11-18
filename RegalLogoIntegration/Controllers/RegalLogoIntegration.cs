@@ -22,7 +22,7 @@ namespace RegalLogoIntegration.Controllers
         [HttpGet("connectiontest")]
         public async Task<IActionResult> ConnectionTest()
         {
-            string connectionString = "Server=10.0.0.150;Database=TIGERG;User Id=CRM;Password=Asd123..,;TrustServerCertificate=true;Connect Timeout=30;";
+            string connectionString = "Server=****;Database=***;User Id=***;Password=*****;TrustServerCertificate=true;Connect Timeout=30;";
 
             try
             {
@@ -75,3 +75,4 @@ namespace RegalLogoIntegration.Controllers
 
     }
 }
+
